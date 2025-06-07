@@ -1411,6 +1411,12 @@ native SHA256_Hash(const content[], const salt[], output[], size = sizeof (outpu
 #pragma deprecated Use `CountRunningTimers`.
 native GetRunningTimers() = CountRunningTimers;
 
+/**
+ * <library>omp_core</library>
+ */
+#pragma deprecated Use `CountRunningTimers`.
+native GetActiveTimers() = CountRunningTimers;
+
 /*
                                                                                               
       ,ad8888ba,               88  88  88                                   88                    
